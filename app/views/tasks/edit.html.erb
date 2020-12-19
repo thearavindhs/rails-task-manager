@@ -1,0 +1,11 @@
+<h2>Edit the Task</h2>
+
+<%= simple_form_for @task,
+  wrapper_mappings: {
+    boolean: :inline_boolean
+  } do |f| %>
+  <%= f.input :title, input_html: { class: "mb-2 mr-sm-2" } %>
+  <%= f.input :details, input_html: { class: "mb-2 mr-sm-2" } %>
+  <%= f.input :completed, input_html: { class: "mb-2 mr-sm-2" } %>
+  <%= f.button :submit, class: "btn-primary mb-2" %>
+<% end %>

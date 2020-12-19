@@ -1,0 +1,10 @@
+@import "bootstrap/scss/bootstrap";
+
+$gray: #f1f1f1;
+
+body {
+   background: $gray; // Using this variable
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-right: 1200px;
+ }
